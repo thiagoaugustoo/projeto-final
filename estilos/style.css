@@ -1,0 +1,138 @@
+@charset "utf-8"
+
+@font-face {
+    font-family: 'oswald';
+    src: url('../fontes/Oswald/Oswald.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+*{
+}
+
+:root {
+    --cor0: rgb(247, 192, 135); 
+    --cor1: rgb(22, 33, 79);
+    --cor2: rgb(223, 182, 140);
+    --cor3: white;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque:'oswald', 'Fira+Sans', sans-serif;
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: saddlebrown;
+    border-radius: 0px 0px 5px 5px;
+    color: white;
+}
+
+.logo > img{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.principal{
+    background-color: var(--cor3);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+}
+
+
+.menu{
+    text-align: center;
+}
+
+.menu > div{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin: 10px;
+}
+
+.menu > div > a > img{
+    width: 100%;
+    max-width: 200px;
+}
+
+.contato{
+    text-align: center;
+    font-family: var(--fonte-destaque);
+}
+
+.social{
+    text-align: center;
+}
+.fotos{
+    display: inline-block;
+    margin: 10px;
+}
+
+.fotos > a > img{
+    width: 100%;
+    max-width: 75px;
+}
+
+.icone{
+    text-align: center;
+}
+.icone > img{
+    width: 100%;
+    max-width: 200px;
+}
+
+.voltar{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: -25px;
+    top: 25px;
+}
+
+.voltar > a > img{
+    height: 50px;
+}
+
+.caixa{
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+}
+
+.descricao{
+    background-color: rgb(218, 192, 168);
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.descricao > img{
+    position: relative;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.descricao > h3{
+    font-size: 16px;
+    font-family: var(--fonte-destaque);
+}
