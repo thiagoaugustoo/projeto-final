@@ -136,3 +136,17 @@ footer{
     font-size: 16px;
     font-family: var(--fonte-destaque);
 }
+
+.carrinho{
+
+}
+
+.carrinho > img{
+    width: 50px;
+    background-color: gray;
+    padding: 12px;
+    border-radius: 22px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
